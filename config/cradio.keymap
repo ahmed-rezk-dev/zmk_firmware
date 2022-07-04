@@ -55,7 +55,7 @@
 / { 
     macros {
         #include "macros.dtsi"
-        scroll_macro: scroll_macro {
+        /* scroll_macro: scroll_macro {
             label = "scroll_macro";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -64,7 +64,7 @@
                 , <&macro_tap &kp Z &kp M &kp K>
                 , <&macro_release &kp LSHFT>
                 ;
-        };
+        }; */
     };
 
     combos {
