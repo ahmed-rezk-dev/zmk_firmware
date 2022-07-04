@@ -13,7 +13,7 @@
 /* macro: */
 MACRO(num, &macro_tap &trans &macro_press &mo NUMBERS &macro_pause_for_release &macro_release &mo NUMBERS, 0, 0)
 MACRO(sym, &macro_tap &trans &macro_press &mo SYM &macro_pause_for_release &macro_release &mo SYM, 0, 0)
-MACRO(scroll_wheel, &macro_tap &kp R &macro_press &mkp MCLK &macro_pause_for_release &macro_release &trans, 0, 0)
+MACRO(scroll, &macro_tap &kp R &macro_press &mkp MCLK &macro_pause_for_release &macro_release &trans, 0, 0)
 
 /* MACRO(navW, &macro_tap &trans &macro_press &mo NAVW &macro_pause_for_release &macro_release &mo NAVW, 0, 0) */
 /* MACRO(symW, &macro_tap &trans &macro_press &mo SYMW &macro_pause_for_release &macro_release &mo SYMW, 0, 0) */
